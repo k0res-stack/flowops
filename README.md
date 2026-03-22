@@ -4,9 +4,7 @@ B2B SaaS 운영 대시보드 포트폴리오 프로젝트입니다.
 
 ## 🔗 라이브 데모
 
-**👉 [flowops 데모 보기](https://[YOUR_USERNAME].github.io/flowops)**
-
-> `[YOUR_USERNAME]` 부분을 본인의 GitHub 아이디로 변경하세요
+**👉 [flowops 데모 보기](https://k0res-stack.github.io/flowops)**
 
 ---
 
