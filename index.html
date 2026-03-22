@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowOps | Wishcat Portfolio</title>
+  <meta
+    name="description"
+    content="FlowOps는 운영 요청, 고객 문의, 내부 이슈를 통합 관리하는 B2B SaaS 포트폴리오 프로젝트입니다."
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#top">FlowOps</a>
+      <nav class="topnav" aria-label="주요 섹션">
+        <a href="#overview">Overview</a>
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#system">System</a>
+        <a href="#proposal">Proposal</a>
+      </nav>
+      <a class="ghost-button" href="#screens">시안 보기</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Wishcat Portfolio Project</p>
+          <h1>운영팀의 혼잡한 요청 흐름을<br>하나의 SaaS로 정리한 FlowOps</h1>
+          <p class="hero-body">
+            메신저, 이메일, 스프레드시트에 흩어진 요청을 접수, 배정, 처리, 리포트까지
+            한 화면에서 연결하는 운영 대시보드형 B2B SaaS입니다.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-button" href="#overview">프로젝트 보기</a>
+            <a class="secondary-button" href="#screens">핵심 화면 확인</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card accent-lime">
+              <span class="stat-label">Project Type</span>
+              <strong>B2B SaaS</strong>
+              <p>운영 요청 통합 관리</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Core Scope</span>
+              <strong>RBAC + Workflow</strong>
+              <p>관리자, 매니저, 멤버 권한 구조</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Deliverables</span>
+              <strong>PRD to UI</strong>
+              <p>PRD, IA, ERD, 와이어프레임, 시안</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-panel visual-main">
+            <img src="flowops-design/screens/02-dashboard.svg" alt="FlowOps 대시보드 시안">
+          </div>
+          <div class="visual-panel visual-float visual-left">
+            <img src="flowops-design/screens/03-requests.svg" alt="FlowOps 요청 관리 시안">
+          </div>
+          <div class="visual-panel visual-float visual-right">
+            <img src="flowops-design/screens/04-request-detail.svg" alt="FlowOps 요청 상세 시안">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-grid" id="overview">
+        <div class="section-intro">
+          <p class="eyebrow">Overview</p>
+          <h2>왜 이 프로젝트가 포트폴리오에 유리한가</h2>
+          <p>
+            위시캣 포트폴리오에서는 단순 소개형 사이트보다 실제 발주와 가까운 구조가 더 강합니다.
+            FlowOps는 운영 실무에서 자주 발생하는 문제를 기준으로 서비스 구조를 설계했습니다.
+          </p>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card">
+            <span class="problem-index">01</span>
+            <h3>요청 누락</h3>
+            <p>여러 채널로 들어온 요청이 분산되어 누락되기 쉽습니다.</p>
+          </article>
+          <article class="problem-card">
+            <span class="problem-index">02</span>
+            <h3>책임 불명확</h3>
+            <p>담당자와 상태가 분리돼 있지 않아 중복 대응이 발생합니다.</p>
+          </article>
+          <article class="problem-card">
+            <span class="problem-index">03</span>
+            <h3>운영 가시성 부족</h3>
+            <p>관리자는 처리량, 병목, 완료율을 즉시 파악하기 어렵습니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-grid section-grid-tight">
+        <div class="system-card dark-card">
+          <p class="eyebrow eyebrow-dark">Product Framing</p>
+          <h2>운영 문제를 해결하는 구조</h2>
+          <div class="workflow-list">
+            <div>
+              <strong>접수</strong>
+              <p>표준화된 요청 양식으로 입력 채널을 통합</p>
+            </div>
+            <div>
+              <strong>배정</strong>
+              <p>우선순위와 담당자를 기준으로 작업 큐를 정리</p>
+            </div>
+            <div>
+              <strong>처리</strong>
+              <p>댓글과 활동 이력으로 작업 맥락을 축적</p>
+            </div>
+            <div>
+              <strong>리포트</strong>
+              <p>완료율, 처리량, 평균 처리 시간으로 운영 현황을 시각화</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="role-card">
+          <p class="eyebrow">Roles</p>
+          <h2>역할 기반 권한 설계</h2>
+          <div class="role-list">
+            <article>
+              <h3>관리자</h3>
+              <p>조직 설정, 멤버 관리, 전체 요청 제어, 운영 리포트 확인</p>
+            </article>
+            <article>
+              <h3>매니저</h3>
+              <p>요청 분류, 담당자 배정, 상태 변경, 팀 처리량 관리</p>
+            </article>
+            <article>
+              <h3>멤버</h3>
+              <p>본인 업무 처리, 코멘트 작성, 요청 완료 처리</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-section" id="features">
+        <div class="section-intro">
+          <p class="eyebrow">Core Features</p>
+          <h2>실무형 SaaS 포트폴리오로 보이게 만드는 핵심 기능</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>운영 대시보드</h3>
+            <p>KPI, 상태 분포, 담당자별 처리량으로 운영 병목을 즉시 파악합니다.</p>
+          </article>
+          <article class="feature-card">
+            <h3>요청 관리</h3>
+            <p>검색, 필터, 상태 변경, 담당자 배정을 메인 작업 공간에서 처리합니다.</p>
+          </article>
+          <article class="feature-card">
+            <h3>요청 상세</h3>
+            <p>기본 정보, 댓글, 활동 이력, 상태 제어를 한 화면에서 관리합니다.</p>
+          </article>
+          <article class="feature-card">
+            <h3>내 업무</h3>
+            <p>개인 작업 큐를 별도 제공해 운영자 입장에서 우선순위를 빠르게 정리합니다.</p>
+          </article>
+          <article class="feature-card">
+            <h3>멤버 및 권한</h3>
+            <p>관리자, 매니저, 멤버 역할을 분리해 B2B SaaS 구조의 신뢰도를 높였습니다.</p>
+          </article>
+          <article class="feature-card">
+            <h3>활동 로그</h3>
+            <p>상태 변경, 담당자 변경, 처리 코멘트를 기록해 운영 히스토리를 남깁니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="artifact-section">
+        <div class="section-intro">
+          <p class="eyebrow">Project Artifacts</p>
+          <h2>기획에서 화면까지 이어지는 산출물</h2>
+        </div>
+
+        <div class="artifact-grid">
+          <article class="artifact-card">
+            <span>PRD</span>
+            <p>문제 정의, 목표, 사용자 유형, 핵심 기능, MVP 범위를 정리</p>
+          </article>
+          <article class="artifact-card">
+            <span>IA</span>
+            <p>운영 흐름에 맞춘 메뉴 구조와 페이지 관계 설계</p>
+          </article>
+          <article class="artifact-card">
+            <span>User Flow</span>
+            <p>요청 접수부터 처리 완료까지의 액션 흐름 정리</p>
+          </article>
+          <article class="artifact-card">
+            <span>ERD</span>
+            <p>조직, 멤버, 요청, 댓글, 활동 이력을 반영한 데이터 모델 구성</p>
+          </article>
+          <article class="artifact-card">
+            <span>Wireframes</span>
+            <p>핵심 6개 화면을 기준으로 정보 구조와 액션 위치 정의</p>
+          </article>
+          <article class="artifact-card">
+            <span>Design System</span>
+            <p>토큰, 상태 배지, 카드, 테이블, 대시보드 컴포넌트 톤 정리</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="screen-section" id="screens">
+        <div class="section-intro">
+          <p class="eyebrow">Screens</p>
+          <h2>핵심 화면 시안</h2>
+          <p>실제 SaaS처럼 보이도록 색상, 위계, 데이터 밀도를 포함해 정리한 화면입니다.</p>
+        </div>
+
+        <div class="screen-grid">
+          <figure class="screen-card screen-card-wide">
+            <img src="flowops-design/screens/02-dashboard.svg" alt="대시보드 화면">
+            <figcaption>
+              <strong>Dashboard</strong>
+              <span>운영 KPI, 상태 분포, 담당자 처리량</span>
+            </figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img src="flowops-design/screens/01-login.svg" alt="로그인 화면">
+            <figcaption>
+              <strong>Login</strong>
+              <span>브랜드 인상과 제품 포지셔닝을 함께 전달</span>
+            </figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img src="flowops-design/screens/03-requests.svg" alt="요청 목록 화면">
+            <figcaption>
+              <strong>Requests</strong>
+              <span>검색, 필터, 테이블 기반 운영 화면</span>
+            </figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img src="flowops-design/screens/04-request-detail.svg" alt="요청 상세 화면">
+            <figcaption>
+              <strong>Request Detail</strong>
+              <span>상태, 댓글, 활동 이력을 한 화면에 집약</span>
+            </figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img src="flowops-design/screens/05-request-new.svg" alt="요청 등록 화면">
+            <figcaption>
+              <strong>New Request</strong>
+              <span>표준화된 입력 양식으로 누락 없는 접수</span>
+            </figcaption>
+          </figure>
+          <figure class="screen-card">
+            <img src="flowops-design/screens/06-members.svg" alt="멤버 관리 화면">
+            <figcaption>
+              <strong>Members</strong>
+              <span>역할 기반 관리와 조직 운영 기능 강조</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-grid" id="system">
+        <div class="system-card">
+          <p class="eyebrow">System Thinking</p>
+          <h2>포트폴리오에서 강조할 설계 포인트</h2>
+          <ul class="bullet-list">
+            <li>조직 단위 데이터 분리를 고려한 멀티 테넌트 구조</li>
+            <li>관리자, 매니저, 멤버로 나뉘는 역할 기반 권한 관리</li>
+            <li>상태 변경과 담당자 변경을 추적하는 활동 로그 테이블</li>
+            <li>운영 리포트를 위한 요청 상태, 완료 시점, 담당자 기준 집계 구조</li>
+          </ul>
+        </div>
+
+        <div class="system-card alt-card">
+          <p class="eyebrow">Why It Wins</p>
+          <h2>클라이언트가 좋아할 포인트</h2>
+          <ul class="bullet-list">
+            <li>실제 외주 수요가 높은 백오피스형 서비스 구조를 반영</li>
+            <li>회원 기능보다 운영 기능이 중심이라 실무 이해도가 드러남</li>
+            <li>디자인뿐 아니라 PRD, 데이터, 권한, 흐름 설계까지 설명 가능</li>
+            <li>산업군을 바꿔도 재활용 가능한 범용적인 SaaS 포트폴리오</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="proposal-section" id="proposal">
+        <div class="section-intro">
+          <p class="eyebrow">Wishcat Proposal</p>
+          <h2>위시캣 지원에 바로 붙일 수 있는 제안 포인트</h2>
+          <p>
+            단순히 화면을 예쁘게 만드는 것이 아니라, 운영 구조를 이해하고 실무형 SaaS로
+            설계할 수 있다는 점을 제안서에서 선명하게 전달하는 구성이 중요합니다.
+          </p>
+        </div>
+
+        <div class="proposal-layout">
+          <article class="proposal-main">
+            <span class="proposal-badge">추천 메시지 구조</span>
+            <h3>문제 이해 → 설계 접근 → 산출물 → 협업 방식</h3>
+            <p>
+              안녕하세요. 운영 프로세스와 백오피스 구조를 중심으로 웹 서비스를 설계하고 개발하는 작업에 강점이 있습니다.
+              이번 프로젝트는 단순 기능 구현보다, 실제 운영자가 요청을 접수하고 분류하고 처리하는 흐름을 얼마나 명확하게 구조화하느냐가 중요하다고 이해했습니다.
+            </p>
+            <p>
+              저는 FlowOps와 같은 운영 대시보드형 SaaS 구조를 바탕으로 권한 설계, 요청 상태 관리, 담당자 배정, 활동 이력, 운영 리포트까지 포함한 실무형 서비스를 기획해두었습니다.
+              그래서 초기 요구사항 정리부터 화면 구조, 데이터 설계, MVP 범위 설정까지 안정적으로 함께 진행할 수 있습니다.
+            </p>
+            <p>
+              진행 시에는 먼저 요구사항을 기능 단위로 정리하고, 핵심 사용자 플로우와 관리자 기능을 우선 설계한 뒤, MVP 범위를 명확히 나눠 개발 리스크를 줄이는 방식으로 협업합니다.
+              필요한 경우 PRD, IA, 와이어프레임, 화면 시안까지 선행해서 의사결정 속도를 높일 수 있습니다.
+            </p>
+
+            <div class="proposal-points">
+              <div>
+                <strong>제가 줄 수 있는 가치</strong>
+                <p>운영 워크플로우를 서비스 구조로 풀어내고, 관리자 화면까지 설계 가능한 점이 강점입니다.</p>
+              </div>
+              <div>
+                <strong>클라이언트가 기대할 수 있는 결과</strong>
+                <p>단순 랜딩 페이지가 아닌, 실제 업무에 사용할 수 있는 백오피스형 제품 관점의 결과물을 제공합니다.</p>
+              </div>
+            </div>
+          </article>
+
+          <aside class="proposal-side">
+            <article class="proposal-card">
+              <span class="proposal-label">Project Fit</span>
+              <strong>B2B SaaS 구조 이해</strong>
+              <p>운영 대시보드, 요청 처리, 권한 관리, 관리자 기능 설계 경험을 포트폴리오 형태로 제시 가능</p>
+            </article>
+            <article class="proposal-card">
+              <span class="proposal-label">Process</span>
+              <strong>기획부터 개발 전환까지</strong>
+              <p>요구사항 정리, MVP 범위 조정, 화면 구조 정의, UI 시안까지 연결되는 작업 방식</p>
+            </article>
+            <article class="proposal-card">
+              <span class="proposal-label">Deliverables</span>
+              <strong>바로 공유 가능한 산출물</strong>
+              <p>PRD, IA, 유저 플로우, ERD 초안, 화면 시안, 제안서용 소개 문구</p>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div>
+          <p class="eyebrow eyebrow-dark">Next Step</p>
+          <h2>다음 단계로 바로 이어갈 수 있습니다</h2>
+          <p>
+            이 페이지를 기반으로 실제 개발 시안, React 랜딩 페이지, 상세 PRD 문서, 또는
+            위시캣 제안서용 소개문구까지 확장할 수 있습니다.
+          </p>
+        </div>
+        <div class="cta-box">
+          <span>Ready for build</span>
+          <strong>FlowOps Portfolio Pack</strong>
+          <p>기획, 화면, 설명 문구를 하나의 패키지로 정리 완료</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
