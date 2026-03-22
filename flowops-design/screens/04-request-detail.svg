@@ -1,0 +1,117 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ui { font-family: 'SUIT Variable', 'Pretendard', sans-serif; }
+      .data { font-family: 'Space Grotesk', 'SUIT Variable', sans-serif; }
+      .page { fill:#132033; font:700 28px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .body { fill:#304156; font:500 15px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .cap { fill:#5E6B7B; font:600 13px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .nav { fill:#D7E2EE; font:600 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .navActive { fill:#132033; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableBody { fill:#132033; font:500 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .btnText { fill:#ffffff; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1024" fill="#F5F3EE"/>
+  <!-- Sidebar: Ink 700 (#304156) -->
+  <rect width="240" height="1024" fill="#304156"/>
+  <rect x="240" width="1200" height="76" fill="#FFFCF7" stroke="#DDD7CC"/>
+
+  <rect x="24" y="26" width="124" height="40" rx="20" fill="#1E3045" stroke="#35516D"/>
+  <text x="54" y="52" class="ui" fill="#FFFFFF" font-size="18" font-weight="700">FlowOps</text>
+
+  <text x="56" y="138" class="nav">대시보드</text>
+  <!-- Active sidebar item -->
+  <rect x="16" y="162" width="208" height="44" rx="12" fill="#132033"/>
+  <rect x="16" y="162" width="4" height="44" rx="2" fill="#C7F36B"/>
+  <text x="56" y="190" class="navActive" fill="#FFFFFF">요청 관리</text>
+  <text x="56" y="248" class="nav">내 업무</text>
+  <text x="56" y="296" class="nav">멤버 관리</text>
+  <text x="56" y="344" class="nav">조직 설정</text>
+
+  <rect x="296" y="18" width="360" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="326" y="43" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">검색</text>
+  <circle cx="1210" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <circle cx="1260" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <rect x="1298" y="18" width="106" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1322" y="43" class="ui" fill="#304156" font-size="13" font-weight="600">Wishcat 팀</text>
+
+  <text x="296" y="132" class="page">요청 상세</text>
+  <text x="296" y="162" class="body">요청의 현재 상태, 담당자, 처리 이력을 한 화면에서 관리합니다.</text>
+
+  <!-- 요청 헤더 카드 -->
+  <rect x="296" y="198" width="1052" height="96" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="324" y="234" class="ui" fill="#132033" font-size="24" font-weight="700">결제 오류 문의</text>
+  <text x="324" y="260" class="cap">요청 ID 31</text>
+  <rect x="832" y="220" width="94" height="34" rx="17" fill="#D9F3F1"/>
+  <text x="879" y="241" text-anchor="middle" class="ui" fill="#0B6E6D" font-size="13" font-weight="700">진행중</text>
+  <rect x="942" y="220" width="90" height="34" rx="17" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="987" y="241" text-anchor="middle" class="ui" fill="#304156" font-size="13" font-weight="700">높음</text>
+  <rect x="1048" y="220" width="118" height="34" rx="17" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1107" y="241" text-anchor="middle" class="ui" fill="#304156" font-size="13" font-weight="700">김민수</text>
+  <rect x="1182" y="214" width="138" height="44" rx="12" fill="#132033"/>
+  <text x="1251" y="241" text-anchor="middle" class="btnText">처리 완료</text>
+
+  <!-- 기본 정보 카드 -->
+  <rect x="296" y="318" width="500" height="266" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="324" y="356" class="ui" fill="#132033" font-size="18" font-weight="700">기본 정보</text>
+  <text x="324" y="404" class="cap">요청자명</text>
+  <text x="324" y="430" class="tableBody">홍길동</text>
+  <text x="324" y="474" class="cap">이메일</text>
+  <text x="324" y="500" class="tableBody">hong@email.com</text>
+  <text x="324" y="544" class="cap">카테고리</text>
+  <text x="324" y="570" class="tableBody">결제</text>
+  <text x="520" y="404" class="cap">상세 설명</text>
+  <text x="520" y="430" class="body">결제 시 PG 오류가 발생하며</text>
+  <text x="520" y="456" class="body">주문 완료 페이지로 이동하지 않습니다.</text>
+
+  <!-- 처리 현황 카드 -->
+  <rect x="820" y="318" width="528" height="266" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="848" y="356" class="ui" fill="#132033" font-size="18" font-weight="700">처리 현황</text>
+  <text x="848" y="404" class="cap">생성일</text>
+  <text x="848" y="430" class="tableBody">2026-03-22 09:18</text>
+  <text x="1080" y="404" class="cap">최근 수정</text>
+  <text x="1080" y="430" class="tableBody">2026-03-22 10:20</text>
+  <text x="848" y="484" class="cap">예상 완료</text>
+  <text x="848" y="510" class="tableBody">오늘 16:00</text>
+  <text x="1080" y="484" class="cap">우선순위 근거</text>
+  <text x="1080" y="510" class="body">결제 실패로 매출 영향 발생</text>
+  <line x1="848" y1="540" x2="1320" y2="540" stroke="#EEE7DB"/>
+  <text x="848" y="574" class="cap">진행 메모</text>
+  <text x="848" y="600" class="body">PG 응답 로그 확인 중이며 프론트 콜백 파라미터 누락 여부를 점검합니다.</text>
+
+  <!-- 댓글 -->
+  <rect x="296" y="608" width="652" height="344" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="324" y="646" class="ui" fill="#132033" font-size="18" font-weight="700">댓글</text>
+  <rect x="324" y="670" width="596" height="52" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="350" y="701" class="cap">처리 내용이나 확인 사항을 남겨주세요</text>
+  <rect x="796" y="736" width="124" height="44" rx="12" fill="#0EA5A4"/>
+  <text x="858" y="763" text-anchor="middle" class="btnText">댓글 작성</text>
+
+  <rect x="324" y="796" width="596" height="60" rx="12" fill="#FAF7F0" stroke="#EEE7DB"/>
+  <circle cx="352" cy="826" r="14" fill="#132033"/>
+  <text x="386" y="820" class="tableBody">김민수</text>
+  <text x="452" y="820" class="cap">10:20</text>
+  <text x="386" y="843" class="body">PG 오류 원인 확인 중입니다. 콜백 응답값 검증이 필요합니다.</text>
+
+  <rect x="324" y="866" width="596" height="60" rx="12" fill="#FAF7F0" stroke="#EEE7DB"/>
+  <circle cx="352" cy="896" r="14" fill="#0EA5A4"/>
+  <text x="386" y="890" class="tableBody">박매니저</text>
+  <text x="466" y="890" class="cap">09:50</text>
+  <text x="386" y="913" class="body">담당자 배정 완료. 매출 영향으로 우선순위를 높음으로 상향했습니다.</text>
+
+  <!-- 활동 이력 -->
+  <rect x="972" y="608" width="376" height="344" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="1000" y="646" class="ui" fill="#132033" font-size="18" font-weight="700">활동 이력</text>
+  <line x1="1030" y1="692" x2="1030" y2="876" stroke="#D9D2C6" stroke-width="2"/>
+  <circle cx="1030" cy="716" r="8" fill="#0EA5A4"/>
+  <text x="1056" y="720" class="tableBody">접수 → 진행중</text>
+  <text x="1056" y="742" class="cap">2026-03-22 09:50</text>
+  <circle cx="1030" cy="780" r="8" fill="#132033"/>
+  <text x="1056" y="784" class="tableBody">미배정 → 김민수</text>
+  <text x="1056" y="806" class="cap">2026-03-22 09:50</text>
+  <circle cx="1030" cy="844" r="8" fill="#C7F36B"/>
+  <text x="1056" y="848" class="tableBody">우선순위 중간 → 높음</text>
+  <text x="1056" y="870" class="cap">2026-03-22 09:51</text>
+</svg>

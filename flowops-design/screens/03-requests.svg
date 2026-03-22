@@ -1,0 +1,144 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ui { font-family: 'SUIT Variable', 'Pretendard', sans-serif; }
+      .data { font-family: 'Space Grotesk', 'SUIT Variable', sans-serif; }
+      .page { fill:#132033; font:700 28px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .body { fill:#304156; font:500 15px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .cap { fill:#5E6B7B; font:600 13px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .nav { fill:#D7E2EE; font:600 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .navActive { fill:#132033; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableHead { fill:#5E6B7B; font:600 12px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableBody { fill:#132033; font:500 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .btnText { fill:#ffffff; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1024" fill="#F5F3EE"/>
+  <!-- Sidebar: Ink 700 (#304156) -->
+  <rect width="240" height="1024" fill="#304156"/>
+  <rect x="240" width="1200" height="76" fill="#FFFCF7" stroke="#DDD7CC"/>
+
+  <rect x="24" y="26" width="124" height="40" rx="20" fill="#1E3045" stroke="#35516D"/>
+  <text x="54" y="52" class="ui" fill="#FFFFFF" font-size="18" font-weight="700">FlowOps</text>
+
+  <text x="56" y="138" class="nav">대시보드</text>
+  <!-- Active sidebar item -->
+  <rect x="16" y="162" width="208" height="44" rx="12" fill="#132033"/>
+  <rect x="16" y="162" width="4" height="44" rx="2" fill="#C7F36B"/>
+  <text x="56" y="190" class="navActive" fill="#FFFFFF">요청 관리</text>
+  <text x="56" y="248" class="nav">내 업무</text>
+  <text x="56" y="296" class="nav">멤버 관리</text>
+  <text x="56" y="344" class="nav">조직 설정</text>
+
+  <rect x="296" y="18" width="360" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="326" y="43" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">검색</text>
+  <circle cx="1210" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <circle cx="1260" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <rect x="1298" y="18" width="106" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1322" y="43" class="ui" fill="#304156" font-size="13" font-weight="600">Wishcat 팀</text>
+
+  <text x="296" y="132" class="page">요청 관리</text>
+  <text x="296" y="162" class="body">들어온 요청을 검색하고 빠르게 정리하세요.</text>
+
+  <rect x="1174" y="116" width="174" height="44" rx="12" fill="#0EA5A4"/>
+  <text x="1261" y="143" text-anchor="middle" class="btnText">요청 등록</text>
+
+  <!-- 필터 바 -->
+  <rect x="296" y="198" width="1052" height="74" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <rect x="320" y="214" width="352" height="42" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="346" y="240" class="cap">제목, 요청자, ID로 검색</text>
+  <rect x="694" y="214" width="110" height="42" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="726" y="240" class="cap">상태</text>
+  <rect x="818" y="214" width="110" height="42" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="845" y="240" class="cap">우선순위</text>
+  <rect x="942" y="214" width="110" height="42" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="969" y="240" class="cap">담당자</text>
+  <rect x="1066" y="214" width="110" height="42" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1093" y="240" class="cap">카테고리</text>
+  <rect x="1190" y="214" width="134" height="42" rx="12" fill="#132033"/>
+  <text x="1257" y="240" text-anchor="middle" class="ui" fill="#FFFFFF" font-size="13" font-weight="700">필터 초기화</text>
+
+  <!-- 데이터 테이블 -->
+  <rect x="296" y="296" width="1052" height="600" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <rect x="320" y="320" width="128" height="38" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="384" y="344" text-anchor="middle" class="ui" fill="#304156" font-size="13" font-weight="700">일괄 담당자 배정</text>
+  <rect x="460" y="320" width="118" height="38" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="519" y="344" text-anchor="middle" class="ui" fill="#304156" font-size="13" font-weight="700">일괄 상태 변경</text>
+
+  <line x1="320" y1="386" x2="1324" y2="386" stroke="#EEE7DB"/>
+  <text x="332" y="412" class="tableHead">선택</text>
+  <text x="398" y="412" class="tableHead">ID</text>
+  <text x="472" y="412" class="tableHead">제목</text>
+  <text x="790" y="412" class="tableHead">상태</text>
+  <text x="928" y="412" class="tableHead">우선순위</text>
+  <text x="1048" y="412" class="tableHead">담당자</text>
+  <text x="1172" y="412" class="tableHead">생성일</text>
+
+  <line x1="320" y1="436" x2="1324" y2="436" stroke="#EEE7DB"/>
+  <rect x="332" y="454" width="16" height="16" rx="4" fill="#FFFFFF" stroke="#CFC7B8"/>
+  <text x="398" y="468" class="tableBody">31</text>
+  <text x="472" y="468" class="tableBody">결제 오류 문의</text>
+  <rect x="778" y="446" width="64" height="28" rx="14" fill="#D9F3F1"/>
+  <text x="810" y="464" text-anchor="middle" class="ui" fill="#0B6E6D" font-size="12" font-weight="700">진행중</text>
+  <text x="928" y="468" class="tableBody">높음</text>
+  <text x="1048" y="468" class="tableBody">김민수</text>
+  <text x="1172" y="468" class="tableBody">03/22</text>
+
+  <line x1="320" y1="492" x2="1324" y2="492" stroke="#EEE7DB"/>
+  <rect x="332" y="510" width="16" height="16" rx="4" fill="#FFFFFF" stroke="#CFC7B8"/>
+  <text x="398" y="524" class="tableBody">30</text>
+  <text x="472" y="524" class="tableBody">계정 권한 요청</text>
+  <rect x="778" y="502" width="54" height="28" rx="14" fill="#E9E4D8"/>
+  <text x="805" y="520" text-anchor="middle" class="ui" fill="#5E5A52" font-size="12" font-weight="700">접수</text>
+  <text x="928" y="524" class="tableBody">중간</text>
+  <text x="1048" y="524" class="tableBody">미배정</text>
+  <text x="1172" y="524" class="tableBody">03/22</text>
+
+  <line x1="320" y1="548" x2="1324" y2="548" stroke="#EEE7DB"/>
+  <rect x="332" y="566" width="16" height="16" rx="4" fill="#FFFFFF" stroke="#CFC7B8"/>
+  <text x="398" y="580" class="tableBody">29</text>
+  <text x="472" y="580" class="tableBody">데이터 수정 요청</text>
+  <rect x="778" y="558" width="54" height="28" rx="14" fill="#FCE6CC"/>
+  <text x="805" y="576" text-anchor="middle" class="ui" fill="#A35A00" font-size="12" font-weight="700">보류</text>
+  <text x="928" y="580" class="tableBody">낮음</text>
+  <text x="1048" y="580" class="tableBody">박지윤</text>
+  <text x="1172" y="580" class="tableBody">03/21</text>
+
+  <line x1="320" y1="604" x2="1324" y2="604" stroke="#EEE7DB"/>
+  <rect x="332" y="622" width="16" height="16" rx="4" fill="#FFFFFF" stroke="#CFC7B8"/>
+  <text x="398" y="636" class="tableBody">28</text>
+  <text x="472" y="636" class="tableBody">정산 리포트 확인 요청</text>
+  <rect x="778" y="614" width="54" height="28" rx="14" fill="#DDF3EA"/>
+  <text x="805" y="632" text-anchor="middle" class="ui" fill="#1F7A5C" font-size="12" font-weight="700">완료</text>
+  <text x="928" y="636" class="tableBody">중간</text>
+  <text x="1048" y="636" class="tableBody">이도현</text>
+  <text x="1172" y="636" class="tableBody">03/20</text>
+
+  <line x1="320" y1="660" x2="1324" y2="660" stroke="#EEE7DB"/>
+  <rect x="332" y="678" width="16" height="16" rx="4" fill="#FFFFFF" stroke="#CFC7B8"/>
+  <text x="398" y="692" class="tableBody">27</text>
+  <text x="472" y="692" class="tableBody">사용자 계정 비밀번호 초기화</text>
+  <rect x="778" y="670" width="64" height="28" rx="14" fill="#D9F3F1"/>
+  <text x="810" y="688" text-anchor="middle" class="ui" fill="#0B6E6D" font-size="12" font-weight="700">진행중</text>
+  <text x="928" y="692" class="tableBody">중간</text>
+  <text x="1048" y="692" class="tableBody">이수현</text>
+  <text x="1172" y="692" class="tableBody">03/20</text>
+
+  <line x1="320" y1="716" x2="1324" y2="716" stroke="#EEE7DB"/>
+  <rect x="332" y="734" width="16" height="16" rx="4" fill="#FFFFFF" stroke="#CFC7B8"/>
+  <text x="398" y="748" class="tableBody">26</text>
+  <text x="472" y="748" class="tableBody">신규 기능 제안</text>
+  <rect x="778" y="726" width="54" height="28" rx="14" fill="#E9E4D8"/>
+  <text x="805" y="744" text-anchor="middle" class="ui" fill="#5E5A52" font-size="12" font-weight="700">접수</text>
+  <text x="928" y="748" class="tableBody">낮음</text>
+  <text x="1048" y="748" class="tableBody">미배정</text>
+  <text x="1172" y="748" class="tableBody">03/19</text>
+
+  <!-- 페이지네이션 -->
+  <text x="1180" y="854" class="cap">1 / 5</text>
+  <rect x="1230" y="834" width="38" height="38" rx="12" fill="#132033"/>
+  <text x="1249" y="858" text-anchor="middle" class="ui" fill="#FFFFFF" font-size="14" font-weight="700">1</text>
+  <rect x="1278" y="834" width="38" height="38" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1297" y="858" text-anchor="middle" class="ui" fill="#304156" font-size="14" font-weight="700">2</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ui { font-family: 'SUIT Variable', 'Pretendard', sans-serif; }
+      .page { fill:#132033; font:700 28px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .body { fill:#304156; font:500 15px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .cap { fill:#5E6B7B; font:600 13px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .nav { fill:#D7E2EE; font:600 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .navActive { fill:#132033; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .field { fill:#FFFCF7; stroke:#DDD7CC; stroke-width:1; }
+      .fieldText { fill:#5E6B7B; font:500 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .btnText { fill:#ffffff; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1024" fill="#F5F3EE"/>
+  <!-- Sidebar: Ink 700 (#304156) -->
+  <rect width="240" height="1024" fill="#304156"/>
+  <rect x="240" width="1200" height="76" fill="#FFFCF7" stroke="#DDD7CC"/>
+
+  <rect x="24" y="26" width="124" height="40" rx="20" fill="#1E3045" stroke="#35516D"/>
+  <text x="54" y="52" class="ui" fill="#FFFFFF" font-size="18" font-weight="700">FlowOps</text>
+
+  <text x="56" y="138" class="nav">대시보드</text>
+  <!-- Active sidebar item -->
+  <rect x="16" y="162" width="208" height="44" rx="12" fill="#132033"/>
+  <rect x="16" y="162" width="4" height="44" rx="2" fill="#C7F36B"/>
+  <text x="56" y="190" class="navActive" fill="#FFFFFF">요청 관리</text>
+  <text x="56" y="248" class="nav">내 업무</text>
+  <text x="56" y="296" class="nav">멤버 관리</text>
+  <text x="56" y="344" class="nav">조직 설정</text>
+
+  <rect x="296" y="18" width="360" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="326" y="43" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">검색</text>
+  <circle cx="1210" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <circle cx="1260" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <rect x="1298" y="18" width="106" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1322" y="43" class="ui" fill="#304156" font-size="13" font-weight="600">Wishcat 팀</text>
+
+  <text x="296" y="132" class="page">새 요청 등록</text>
+  <text x="296" y="162" class="body">표준화된 양식으로 요청을 접수하세요.</text>
+
+  <!-- 폼 카드 -->
+  <rect x="296" y="198" width="1052" height="722" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+
+  <text x="324" y="242" class="cap">제목</text>
+  <rect x="324" y="258" width="996" height="52" rx="12" class="field"/>
+  <text x="350" y="290" class="fieldText">예: 결제 실패 오류 확인 요청</text>
+
+  <text x="324" y="360" class="cap">카테고리</text>
+  <rect x="324" y="376" width="300" height="52" rx="12" class="field"/>
+  <text x="350" y="408" class="fieldText">결제</text>
+  <text x="648" y="360" class="cap">우선순위</text>
+  <rect x="648" y="376" width="300" height="52" rx="12" class="field"/>
+  <text x="674" y="408" class="fieldText">중간</text>
+  <text x="972" y="360" class="cap">담당자</text>
+  <rect x="972" y="376" width="348" height="52" rx="12" class="field"/>
+  <text x="998" y="408" class="fieldText">초기에는 미배정</text>
+
+  <text x="324" y="478" class="cap">요청자명</text>
+  <rect x="324" y="494" width="474" height="52" rx="12" class="field"/>
+  <text x="350" y="526" class="fieldText">홍길동</text>
+  <text x="822" y="478" class="cap">이메일</text>
+  <rect x="822" y="494" width="498" height="52" rx="12" class="field"/>
+  <text x="848" y="526" class="fieldText">hong@email.com</text>
+
+  <text x="324" y="596" class="cap">상세 설명</text>
+  <rect x="324" y="612" width="996" height="198" rx="12" class="field"/>
+  <text x="350" y="646" class="fieldText">문제 상황, 발생 경로, 재현 조건을 자세히 입력해주세요.</text>
+  <text x="350" y="674" class="fieldText">예: 카드 결제 후 결제 완료 페이지로 이동하지 않고 오류 메시지가 노출됩니다.</text>
+
+  <text x="324" y="860" class="cap">첨부파일</text>
+  <rect x="324" y="876" width="240" height="44" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="444" y="903" text-anchor="middle" class="ui" fill="#304156" font-size="13" font-weight="700">파일 선택</text>
+
+  <!-- 버튼: ghost + primary -->
+  <rect x="1062" y="868" width="110" height="44" rx="12" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="1117" y="895" text-anchor="middle" class="ui" fill="#304156" font-size="14" font-weight="700">임시 저장</text>
+  <rect x="1188" y="868" width="132" height="44" rx="12" fill="#0EA5A4"/>
+  <text x="1254" y="895" text-anchor="middle" class="btnText">요청 등록하기</text>
+</svg>

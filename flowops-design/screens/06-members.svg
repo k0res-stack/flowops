@@ -1,0 +1,120 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ui { font-family: 'SUIT Variable', 'Pretendard', sans-serif; }
+      .page { fill:#132033; font:700 28px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .body { fill:#304156; font:500 15px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .cap { fill:#5E6B7B; font:600 13px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .nav { fill:#D7E2EE; font:600 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .navActive { fill:#132033; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableHead { fill:#5E6B7B; font:600 12px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableBody { fill:#132033; font:500 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .btnText { fill:#ffffff; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1024" fill="#F5F3EE"/>
+  <!-- Sidebar: Ink 700 (#304156) -->
+  <rect width="240" height="1024" fill="#304156"/>
+  <rect x="240" width="1200" height="76" fill="#FFFCF7" stroke="#DDD7CC"/>
+
+  <rect x="24" y="26" width="124" height="40" rx="20" fill="#1E3045" stroke="#35516D"/>
+  <text x="54" y="52" class="ui" fill="#FFFFFF" font-size="18" font-weight="700">FlowOps</text>
+
+  <text x="56" y="138" class="nav">대시보드</text>
+  <text x="56" y="196" class="nav">요청 관리</text>
+  <text x="56" y="244" class="nav">내 업무</text>
+  <!-- Active sidebar item -->
+  <rect x="16" y="266" width="208" height="44" rx="12" fill="#132033"/>
+  <rect x="16" y="266" width="4" height="44" rx="2" fill="#C7F36B"/>
+  <text x="56" y="294" class="navActive" fill="#FFFFFF">멤버 관리</text>
+  <text x="56" y="352" class="nav">조직 설정</text>
+
+  <rect x="296" y="18" width="360" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="326" y="43" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">검색</text>
+  <circle cx="1210" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <circle cx="1260" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <rect x="1298" y="18" width="106" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1322" y="43" class="ui" fill="#304156" font-size="13" font-weight="600">Wishcat 팀</text>
+
+  <text x="296" y="132" class="page">멤버 관리</text>
+  <text x="296" y="162" class="body">조직 멤버를 초대하고 역할을 설정하세요.</text>
+
+  <rect x="1196" y="116" width="152" height="44" rx="12" fill="#0EA5A4"/>
+  <text x="1272" y="143" text-anchor="middle" class="btnText">멤버 초대</text>
+
+  <!-- 멤버 테이블 -->
+  <rect x="296" y="198" width="754" height="680" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="324" y="244" class="tableHead">이름</text>
+  <text x="480" y="244" class="tableHead">이메일</text>
+  <text x="676" y="244" class="tableHead">역할</text>
+  <text x="796" y="244" class="tableHead">상태</text>
+  <text x="904" y="244" class="tableHead">가입일</text>
+  <line x1="324" y1="268" x2="1022" y2="268" stroke="#EEE7DB"/>
+
+  <line x1="324" y1="324" x2="1022" y2="324" stroke="#EEE7DB"/>
+  <circle cx="344" cy="296" r="16" fill="#132033"/>
+  <text x="372" y="301" class="tableBody">김민수</text>
+  <text x="480" y="301" class="tableBody">kim@flowops.co</text>
+  <rect x="668" y="282" width="68" height="28" rx="14" fill="#E9E4D8"/>
+  <text x="702" y="300" text-anchor="middle" class="ui" fill="#5E5A52" font-size="12" font-weight="700">관리자</text>
+  <rect x="788" y="282" width="54" height="28" rx="14" fill="#DDF3EA"/>
+  <text x="815" y="300" text-anchor="middle" class="ui" fill="#1F7A5C" font-size="12" font-weight="700">활성</text>
+  <text x="904" y="301" class="tableBody">03/01</text>
+
+  <line x1="324" y1="380" x2="1022" y2="380" stroke="#EEE7DB"/>
+  <circle cx="344" cy="352" r="16" fill="#0EA5A4"/>
+  <text x="372" y="357" class="tableBody">박지윤</text>
+  <text x="480" y="357" class="tableBody">park@flowops.co</text>
+  <rect x="668" y="338" width="62" height="28" rx="14" fill="#D9F3F1"/>
+  <text x="699" y="356" text-anchor="middle" class="ui" fill="#0B6E6D" font-size="12" font-weight="700">매니저</text>
+  <rect x="788" y="338" width="54" height="28" rx="14" fill="#DDF3EA"/>
+  <text x="815" y="356" text-anchor="middle" class="ui" fill="#1F7A5C" font-size="12" font-weight="700">활성</text>
+  <text x="904" y="357" class="tableBody">03/03</text>
+
+  <line x1="324" y1="436" x2="1022" y2="436" stroke="#EEE7DB"/>
+  <circle cx="344" cy="408" r="16" fill="#C7F36B"/>
+  <text x="372" y="413" class="tableBody">이수현</text>
+  <text x="480" y="413" class="tableBody">lee@flowops.co</text>
+  <rect x="668" y="394" width="54" height="28" rx="14" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="695" y="412" text-anchor="middle" class="ui" fill="#304156" font-size="12" font-weight="700">멤버</text>
+  <rect x="774" y="394" width="78" height="28" rx="14" fill="#FCE6CC"/>
+  <text x="813" y="412" text-anchor="middle" class="ui" fill="#A35A00" font-size="12" font-weight="700">초대 대기</text>
+  <text x="904" y="413" class="tableBody">03/22</text>
+
+  <line x1="324" y1="492" x2="1022" y2="492" stroke="#EEE7DB"/>
+  <circle cx="344" cy="464" r="16" fill="#304156"/>
+  <text x="372" y="469" class="tableBody">최도현</text>
+  <text x="480" y="469" class="tableBody">choi@flowops.co</text>
+  <rect x="668" y="450" width="54" height="28" rx="14" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="695" y="468" text-anchor="middle" class="ui" fill="#304156" font-size="12" font-weight="700">멤버</text>
+  <rect x="788" y="450" width="54" height="28" rx="14" fill="#DDF3EA"/>
+  <text x="815" y="468" text-anchor="middle" class="ui" fill="#1F7A5C" font-size="12" font-weight="700">활성</text>
+  <text x="904" y="469" class="tableBody">03/10</text>
+
+  <!-- 역할 안내 패널 -->
+  <rect x="1074" y="198" width="274" height="680" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="1102" y="240" class="ui" fill="#132033" font-size="18" font-weight="700">역할 안내</text>
+
+  <rect x="1102" y="276" width="218" height="120" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1124" y="308" class="ui" fill="#132033" font-size="15" font-weight="700">관리자</text>
+  <text x="1124" y="336" class="body">조직 설정, 멤버 관리,</text>
+  <text x="1124" y="362" class="body">전체 요청 관리와 리포트 확인</text>
+
+  <rect x="1102" y="420" width="218" height="120" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1124" y="452" class="ui" fill="#132033" font-size="15" font-weight="700">매니저</text>
+  <text x="1124" y="480" class="body">요청 분류, 담당자 배정,</text>
+  <text x="1124" y="506" class="body">상태 관리와 운영 현황 확인</text>
+
+  <rect x="1102" y="564" width="218" height="120" rx="12" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1124" y="596" class="ui" fill="#132033" font-size="15" font-weight="700">멤버</text>
+  <text x="1124" y="624" class="body">본인에게 배정된 요청 처리와</text>
+  <text x="1124" y="650" class="body">댓글 작성 및 상태 업데이트</text>
+
+  <!-- 운영 포인트 카드: Primary Dark 배경 사용 -->
+  <rect x="1102" y="726" width="218" height="120" rx="12" fill="#132033"/>
+  <text x="1124" y="760" class="ui" fill="#C7F36B" font-size="15" font-weight="700">운영 포인트</text>
+  <text x="1124" y="790" class="ui" fill="#D7E2EE" font-size="14" font-weight="500">역할 구조를 별도로 안내해</text>
+  <text x="1124" y="816" class="ui" fill="#D7E2EE" font-size="14" font-weight="500">클라이언트가 권한 설계 의도를</text>
+  <text x="1124" y="842" class="ui" fill="#D7E2EE" font-size="14" font-weight="500">한눈에 이해할 수 있게 구성</text>
+</svg>

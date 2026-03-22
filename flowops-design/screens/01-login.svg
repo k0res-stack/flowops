@@ -1,0 +1,83 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0" y1="0" x2="720" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132033"/>
+      <stop offset="1" stop-color="#203753"/>
+    </linearGradient>
+    <linearGradient id="limeGlow" x1="120" y1="140" x2="520" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7F36B" stop-opacity="0.50"/>
+      <stop offset="1" stop-color="#C7F36B" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .ui { font-family: 'SUIT Variable', 'Pretendard', sans-serif; }
+      .data { font-family: 'Space Grotesk', 'SUIT Variable', sans-serif; }
+      .title { fill:#132033; font:700 34px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .body { fill:#304156; font:500 16px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .label { fill:#304156; font:600 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .input { fill:#FFFCF7; stroke:#DDD7CC; stroke-width:1; }
+      .muted { fill:#5E6B7B; font:500 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .btn { fill:#0EA5A4; }
+      .btnText { fill:#ffffff; font:700 15px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .heroTitle { fill:#ffffff; font:700 46px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .heroBody { fill:#D8E3EF; font:500 18px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .chip { fill:#23354A; stroke:#35516D; stroke-width:1; }
+      .chipText { fill:#DCE7F4; font:600 13px 'SUIT Variable', 'Pretendard', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1024" fill="#F5F3EE"/>
+  <rect width="720" height="1024" fill="url(#heroGradient)"/>
+  <circle cx="260" cy="260" r="220" fill="url(#limeGlow)"/>
+  <circle cx="610" cy="820" r="180" fill="#0EA5A4" fill-opacity="0.12"/>
+
+  <rect x="78" y="60" width="126" height="40" rx="20" fill="#1C2E43" stroke="#35516D"/>
+  <text x="108" y="86" class="ui" fill="#FFFFFF" font-size="18" font-weight="700">FlowOps</text>
+
+  <text x="96" y="238" class="heroTitle">운영 요청을</text>
+  <text x="96" y="294" class="heroTitle">하나의 흐름으로</text>
+  <text x="96" y="362" class="heroBody">메신저, 이메일, 스프레드시트에 흩어진 요청을</text>
+  <text x="96" y="392" class="heroBody">접수부터 배정, 처리, 리포트까지 한 곳에서 관리하세요.</text>
+
+  <rect x="96" y="470" width="160" height="42" rx="21" class="chip"/>
+  <text x="122" y="497" class="chipText">운영 대시보드</text>
+  <rect x="270" y="470" width="134" height="42" rx="21" class="chip"/>
+  <text x="302" y="497" class="chipText">권한 관리</text>
+  <rect x="418" y="470" width="118" height="42" rx="21" class="chip"/>
+  <text x="445" y="497" class="chipText">워크플로우</text>
+
+  <rect x="96" y="590" width="480" height="230" rx="22" fill="#17314A" stroke="#2B4B69"/>
+  <text x="128" y="638" class="ui" fill="#DCE7F4" font-size="15" font-weight="600">오늘의 운영 현황</text>
+  <text x="128" y="708" class="data" fill="#FFFFFF" font-size="52" font-weight="700">128</text>
+  <text x="128" y="738" class="ui" fill="#DCE7F4" font-size="15" font-weight="500">이번 주 누적 요청</text>
+  <rect x="128" y="766" width="184" height="12" rx="6" fill="#27425D"/>
+  <rect x="128" y="766" width="128" height="12" rx="6" fill="#C7F36B"/>
+  <rect x="360" y="650" width="160" height="120" rx="18" fill="#1F3C59"/>
+  <text x="388" y="692" class="ui" fill="#DCE7F4" font-size="13" font-weight="600">완료율</text>
+  <text x="388" y="742" class="data" fill="#FFFFFF" font-size="34" font-weight="700">82%</text>
+
+  <!-- 로그인 카드 -->
+  <rect x="838" y="132" width="474" height="760" rx="28" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="904" y="230" class="title">FlowOps에 로그인</text>
+  <text x="904" y="268" class="body">팀의 운영 요청을 한 곳에서 관리하세요</text>
+
+  <text x="904" y="350" class="label">이메일</text>
+  <rect x="904" y="368" width="342" height="52" rx="12" class="input"/>
+  <text x="930" y="400" class="muted">team@flowops.co</text>
+
+  <text x="904" y="470" class="label">비밀번호</text>
+  <rect x="904" y="488" width="342" height="52" rx="12" class="input"/>
+  <text x="930" y="520" class="muted">••••••••••••</text>
+
+  <!-- Primary 버튼: height 52 = 맞춤, radius 12 -->
+  <rect x="904" y="580" width="342" height="52" rx="12" class="btn"/>
+  <text x="1075" y="613" text-anchor="middle" class="btnText">로그인하기</text>
+
+  <text x="904" y="682" class="ui" fill="#0B6E6D" font-size="14" font-weight="600">비밀번호를 잊으셨나요?</text>
+  <text x="904" y="722" class="ui" fill="#304156" font-size="14" font-weight="500">계정이 없나요?</text>
+  <text x="984" y="722" class="ui" fill="#132033" font-size="14" font-weight="700">회원가입</text>
+
+  <line x1="904" y1="772" x2="1246" y2="772" stroke="#EEE7DB"/>
+  <text x="904" y="826" class="ui" fill="#304156" font-size="14" font-weight="600">포트폴리오 포인트</text>
+  <text x="904" y="862" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">- 요청 접수, 배정, 상태 관리, 활동 이력을 한 흐름으로 연결</text>
+  <text x="904" y="892" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">- 관리자, 매니저, 멤버 권한 구조를 고려한 B2B SaaS 설계</text>
+</svg>

@@ -1,0 +1,117 @@
+{
+  "project": {
+    "name": "FlowOps",
+    "concept": "Quiet Command Center",
+    "canvas": {
+      "width": 1440,
+      "height": 1024
+    }
+  },
+  "colors": {
+    "ink900": "#132033",
+    "ink700": "#304156",
+    "ink500": "#5E6B7B",
+    "canvas": "#F5F3EE",
+    "surface": "#FFFCF7",
+    "line": "#DDD7CC",
+    "primary": "#0EA5A4",
+    "primaryDark": "#0B6E6D",
+    "accentLime": "#C7F36B",
+    "warning": "#F4A261",
+    "warningDark": "#A35A00",
+    "danger": "#E76F51",
+    "success": "#2A9D8F",
+    "successDark": "#1F7A5C",
+    "muted": "#E9E4D8",
+    "progressBg": "#D9F3F1",
+    "warningBg": "#FCE6CC",
+    "successBg": "#DDF3EA"
+  },
+  "typography": {
+    "uiFamily": "SUIT Variable, Pretendard, Apple SD Gothic Neo, sans-serif",
+    "dataFamily": "Space Grotesk, SUIT Variable, sans-serif",
+    "pageTitle": {
+      "fontSize": 28,
+      "fontWeight": 700,
+      "lineHeight": 1.3
+    },
+    "sectionTitle": {
+      "fontSize": 20,
+      "fontWeight": 700,
+      "lineHeight": 1.35
+    },
+    "body": {
+      "fontSize": 15,
+      "fontWeight": 500,
+      "lineHeight": 1.5
+    },
+    "caption": {
+      "fontSize": 13,
+      "fontWeight": 500,
+      "lineHeight": 1.45
+    },
+    "kpi": {
+      "fontSize": 32,
+      "fontWeight": 700,
+      "lineHeight": 1.15
+    }
+  },
+  "spacing": {
+    "xs": 8,
+    "sm": 12,
+    "md": 16,
+    "lg": 24,
+    "xl": 32
+  },
+  "radius": {
+    "sm": 8,
+    "md": 12,
+    "lg": 14,
+    "xl": 16
+  },
+  "layout": {
+    "sidebarWidth": 240,
+    "contentWidth": 1120,
+    "topBarHeight": 76,
+    "cardPadding": 24,
+    "sectionGap": 24
+  },
+  "statusBadges": {
+    "접수": {
+      "background": "#E9E4D8",
+      "foreground": "#5E5A52"
+    },
+    "진행중": {
+      "background": "#D9F3F1",
+      "foreground": "#0B6E6D"
+    },
+    "보류": {
+      "background": "#FCE6CC",
+      "foreground": "#A35A00"
+    },
+    "완료": {
+      "background": "#DDF3EA",
+      "foreground": "#1F7A5C"
+    }
+  },
+  "components": {
+    "button": {
+      "height": 44,
+      "radius": 12
+    },
+    "input": {
+      "height": 44,
+      "radius": 12,
+      "border": "#DDD7CC"
+    },
+    "card": {
+      "background": "#FFFCF7",
+      "border": "#DDD7CC",
+      "radius": 14
+    },
+    "tableRow": {
+      "height": 56,
+      "divider": "#EEE7DB"
+    }
+  }
+}

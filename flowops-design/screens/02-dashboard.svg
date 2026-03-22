@@ -1,0 +1,131 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ui { font-family: 'SUIT Variable', 'Pretendard', sans-serif; }
+      .data { font-family: 'Space Grotesk', 'SUIT Variable', sans-serif; }
+      .page { fill:#132033; font:700 28px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .body { fill:#304156; font:500 15px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .cap { fill:#5E6B7B; font:600 13px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .kpi { fill:#132033; font:700 32px 'Space Grotesk', 'SUIT Variable', sans-serif; }
+      .nav { fill:#D7E2EE; font:600 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .navActive { fill:#132033; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableHead { fill:#5E6B7B; font:600 12px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .tableBody { fill:#132033; font:500 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+      .btnText { fill:#ffffff; font:700 14px 'SUIT Variable', 'Pretendard', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1024" fill="#F5F3EE"/>
+  <!-- Sidebar: Ink 700 (#304156) -->
+  <rect width="240" height="1024" fill="#304156"/>
+  <rect x="240" width="1200" height="76" fill="#FFFCF7" stroke="#DDD7CC"/>
+
+  <rect x="24" y="26" width="124" height="40" rx="20" fill="#1E3045" stroke="#35516D"/>
+  <text x="54" y="52" class="ui" fill="#FFFFFF" font-size="18" font-weight="700">FlowOps</text>
+
+  <!-- Active sidebar item highlight -->
+  <rect x="16" y="108" width="208" height="44" rx="12" fill="#132033"/>
+  <rect x="16" y="108" width="4" height="44" rx="2" fill="#C7F36B"/>
+  <text x="56" y="136" class="navActive" fill="#FFFFFF">대시보드</text>
+  <text x="56" y="192" class="nav">요청 관리</text>
+  <text x="56" y="240" class="nav">내 업무</text>
+  <text x="56" y="288" class="nav">멤버 관리</text>
+  <text x="56" y="336" class="nav">조직 설정</text>
+
+  <rect x="296" y="18" width="360" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="326" y="43" class="ui" fill="#5E6B7B" font-size="14" font-weight="500">검색</text>
+  <circle cx="1210" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <circle cx="1260" cy="38" r="18" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <rect x="1298" y="18" width="106" height="40" rx="20" fill="#F8F4EC" stroke="#DDD7CC"/>
+  <text x="1322" y="43" class="ui" fill="#304156" font-size="13" font-weight="600">Wishcat 팀</text>
+
+  <text x="296" y="132" class="page">운영 현황을 한눈에 확인하세요</text>
+  <text x="296" y="162" class="body">오늘 들어온 요청부터 처리 완료율까지 팀의 업무 흐름을 실시간으로 확인할 수 있습니다.</text>
+
+  <rect x="1180" y="116" width="168" height="44" rx="12" fill="#0EA5A4"/>
+  <text x="1264" y="143" text-anchor="middle" class="btnText">요청 등록</text>
+
+  <!-- KPI Cards -->
+  <rect x="296" y="206" width="250" height="132" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="322" y="238" class="cap">전체 요청</text>
+  <text x="322" y="290" class="kpi">128</text>
+  <text x="322" y="316" class="body">지난주 대비 +14%</text>
+  <rect x="486" y="232" width="34" height="34" rx="10" fill="#EAF8F7"/>
+
+  <rect x="564" y="206" width="250" height="132" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="590" y="238" class="cap">진행중</text>
+  <text x="590" y="290" class="kpi">34</text>
+  <text x="590" y="316" class="body">현재 처리 중 요청</text>
+  <rect x="754" y="232" width="34" height="34" rx="10" fill="#D9F3F1"/>
+
+  <rect x="832" y="206" width="250" height="132" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="858" y="238" class="cap">보류</text>
+  <text x="858" y="290" class="kpi">09</text>
+  <text x="858" y="316" class="body">확인 대기 항목</text>
+  <rect x="1022" y="232" width="34" height="34" rx="10" fill="#FCE6CC"/>
+
+  <rect x="1100" y="206" width="248" height="132" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="1126" y="238" class="cap">평균 처리 시간</text>
+  <text x="1126" y="290" class="kpi">3.4h</text>
+  <text x="1126" y="316" class="body">완료 요청 기준</text>
+  <rect x="1290" y="232" width="34" height="34" rx="10" fill="#DDF3EA"/>
+
+  <!-- Chart: 상태별 요청 분포 -->
+  <rect x="296" y="362" width="514" height="286" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="324" y="400" class="ui" fill="#132033" font-size="18" font-weight="700">상태별 요청 분포</text>
+  <text x="324" y="426" class="cap">이번 주</text>
+  <circle cx="470" cy="518" r="88" fill="none" stroke="#E7E0D5" stroke-width="24"/>
+  <path d="M470 430 A88 88 0 1 1 392 565" fill="none" stroke="#0EA5A4" stroke-width="24" stroke-linecap="round"/>
+  <path d="M392 565 A88 88 0 0 1 426 598" fill="none" stroke="#F4A261" stroke-width="24" stroke-linecap="round"/>
+  <path d="M426 598 A88 88 0 0 1 470 606" fill="none" stroke="#2A9D8F" stroke-width="24" stroke-linecap="round"/>
+  <text x="470" y="516" text-anchor="middle" class="data" fill="#132033" font-size="34" font-weight="700">128</text>
+  <text x="470" y="544" text-anchor="middle" class="ui" fill="#5E6B7B" font-size="13" font-weight="600">요청 수</text>
+  <rect x="618" y="462" width="16" height="16" rx="8" fill="#0EA5A4"/>
+  <text x="644" y="475" class="body">진행중 34건</text>
+  <rect x="618" y="500" width="16" height="16" rx="8" fill="#F4A261"/>
+  <text x="644" y="513" class="body">보류 9건</text>
+  <rect x="618" y="538" width="16" height="16" rx="8" fill="#2A9D8F"/>
+  <text x="644" y="551" class="body">완료 85건</text>
+
+  <!-- Chart: 담당자별 처리량 -->
+  <rect x="834" y="362" width="514" height="286" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="862" y="400" class="ui" fill="#132033" font-size="18" font-weight="700">담당자별 처리량</text>
+  <text x="862" y="426" class="cap">이번 주</text>
+  <rect x="906" y="528" width="72" height="72" rx="10" fill="#C7F36B"/>
+  <rect x="1002" y="484" width="72" height="116" rx="10" fill="#0EA5A4"/>
+  <rect x="1098" y="448" width="72" height="152" rx="10" fill="#132033"/>
+  <rect x="1194" y="508" width="72" height="92" rx="10" fill="#F4A261"/>
+  <text x="921" y="630" class="cap">민수</text>
+  <text x="1015" y="630" class="cap">지윤</text>
+  <text x="1112" y="630" class="cap">유진</text>
+  <text x="1209" y="630" class="cap">도현</text>
+
+  <!-- 최근 요청 테이블 -->
+  <rect x="296" y="672" width="1052" height="280" rx="14" fill="#FFFCF7" stroke="#DDD7CC"/>
+  <text x="324" y="710" class="ui" fill="#132033" font-size="18" font-weight="700">최근 요청</text>
+  <line x1="324" y1="744" x2="1320" y2="744" stroke="#EEE7DB"/>
+  <text x="324" y="770" class="tableHead">ID</text>
+  <text x="390" y="770" class="tableHead">제목</text>
+  <text x="716" y="770" class="tableHead">상태</text>
+  <text x="856" y="770" class="tableHead">우선순위</text>
+  <text x="996" y="770" class="tableHead">담당자</text>
+  <text x="1160" y="770" class="tableHead">생성일</text>
+
+  <line x1="324" y1="796" x2="1320" y2="796" stroke="#EEE7DB"/>
+  <text x="324" y="828" class="tableBody">31</text>
+  <text x="390" y="828" class="tableBody">결제 오류 문의</text>
+  <rect x="706" y="808" width="64" height="28" rx="14" fill="#D9F3F1"/>
+  <text x="738" y="826" text-anchor="middle" class="ui" fill="#0B6E6D" font-size="12" font-weight="700">진행중</text>
+  <text x="856" y="828" class="tableBody">높음</text>
+  <text x="996" y="828" class="tableBody">김민수</text>
+  <text x="1160" y="828" class="tableBody">03/22</text>
+
+  <line x1="324" y1="852" x2="1320" y2="852" stroke="#EEE7DB"/>
+  <text x="324" y="884" class="tableBody">30</text>
+  <text x="390" y="884" class="tableBody">계정 권한 요청</text>
+  <rect x="706" y="864" width="54" height="28" rx="14" fill="#E9E4D8"/>
+  <text x="733" y="882" text-anchor="middle" class="ui" fill="#5E5A52" font-size="12" font-weight="700">접수</text>
+  <text x="856" y="884" class="tableBody">중간</text>
+  <text x="996" y="884" class="tableBody">미배정</text>
+  <text x="1160" y="884" class="tableBody">03/22</text>
+</svg>
